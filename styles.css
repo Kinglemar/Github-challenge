@@ -532,6 +532,9 @@ a{
     margin-left: 16px;
 }
 
+.lay:hover{
+    background: #f3f4f6;
+}
 .alte{
     display: flex;
     justify-content: space-between;
@@ -553,6 +556,7 @@ a{
     justify-content: space-between;
     border-bottom: 1px solid #eaecef;
     padding-bottom: 16px;
+    overflow-x: auto;
 }
 
 .repos-input-margin{
@@ -564,7 +568,7 @@ a{
 }
 
 .increase{
-    max-width: 8em;
+    min-width: 7em;
 }
 
 .alte-margin{
@@ -598,10 +602,11 @@ a{
     border:1px solid none ;
     background: #2ea44f;
     font-size: 14px;
-    max-width: 83px;
+    min-width: 75px;
     width: 100%;
     text-decoration: none;
     color: white;
+    white-space: nowrap;
 }
 
 .pill-fallback:hover{
@@ -722,6 +727,11 @@ repos p{
     border: 1px solid none;
     border-radius: 50%;
     background: #f1e05a;
+}
+
+.prevent{
+    position: relative;
+    top: 3px;
 }
 .purple-dot{
     display: inline-block;
