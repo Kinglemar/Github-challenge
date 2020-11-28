@@ -1,0 +1,934 @@
+/* ****************Global styles****************** */
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+img,h3{
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: #24292e;
+    color: white;
+    margin: 0px;
+    padding: 1em 2em;
+    height: 62px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* ***************body styles******************* */
+
+/* ************************Naviagtion styles************************* */
+
+.github-logo{
+    margin-bottom: 8px;
+}
+
+.github-logo:hover{
+    opacity: .7;
+}
+.github-logo a{
+    width: 32px;
+}
+.top-menu{
+    display: flex;
+}
+.left{
+    display: flex;
+    margin-left: 0px;
+    margin-right: 10px;
+    padding: 0px;
+    max-width: 1145px;
+    width: 100% !important;
+}
+.top-menu li{
+    list-style: none;
+    margin: 0;
+    color: white;
+}
+
+.top-menu a{
+    font-size: 0.875em;
+    font-weight: 600;
+    padding: 16px 0px;
+    margin: -16px 16px -16px 0px;
+    text-decoration: none;
+    color: white;
+}
+
+.top-menu a:hover{
+    color:#bebfb7;
+}
+.input-space{
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    border: 1px solid rgb(70, 69, 69);
+    border-radius: 6px;
+    margin-right: 16px;
+    max-width: 272px;
+    width: 100% !important;
+}
+
+.input-space img{
+    margin-right: 8px;
+}
+
+
+.none{
+    background: none;
+    min-height: 28px;
+    min-width: 243px;
+    width: 100% !important;
+    width: 100%;
+    padding: 0px 0.75em;
+    font-size: 0.875em;
+    color: inherit;
+    background: none;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    outline-offset: 0px;
+}
+
+
+.none::placeholder{
+    color: #c8c9cb;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+.push{
+    display: flex;
+    margin-top: 6px;
+    padding: 0;
+}
+
+.button{
+    height: 30px;
+    width: 32px;
+    background: none;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    padding: 0px 0px;
+}
+
+.icon-flex{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: no-wrap;
+    margin: 0;
+    margin-top: 5px;
+    padding: 1px;
+    width: 100px;
+    white-space: nowrap;
+    font-size: 16px;
+    color: white;
+    vertical-align: text-bottom;
+}
+
+.hop{
+    display: flex;
+    margin-right: 16px;
+    padding: 0%;
+    align-items: center;
+    margin-bottom: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.fa-caret-down:hover{
+    opacity: .6;
+}
+
+.hop-init{
+    display: flex;
+    margin-right: 16px;
+    margin-top: 3px;
+    padding: 0%;
+    color: white;
+    cursor: pointer;
+}
+
+.hop-init:hover{
+    opacity: .6;
+}
+.spacer{
+    margin-left: 6px;
+    margin-top: 3px;
+}
+.spacer-init{
+    margin-left: 6px;
+    margin-top: 6px;
+}
+
+.avatar{
+    border-radius: 50%!important;
+    margin-right: 5px;
+}
+
+.bella{
+    color: white;
+    fill: currentColor;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+.bella:hover{
+    opacity: .6;
+}
+
+.cross{
+    fill: currentColor;
+}
+
+
+.fallback-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+.fallback-nav a{
+    padding: 0px;
+    outline: none;
+    fill: currentColor;
+    height: 24px;
+    cursor: pointer;
+    outline: none;
+}
+
+.three-bars:hover{
+    opacity: .6;
+}
+
+
+
+
+/* *************************Switch Menu************************** */
+
+.switch-menu{
+    margin-top: 20px!important;
+    padding-right: 32px!important;
+    padding-left: 32px!important;
+    display: flex;
+    border-bottom: 1px solid #eaecef;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+.switch-menu a{
+    font-size: 14px;
+    text-decoration: none;
+    color:#24292e;
+}
+
+.menu-space{
+    padding: 18px 16px;
+    font-size: 14px;
+    vertical-align: text-bottom;
+    /* line-height: 10px; */
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    justify-content: space-between;
+    color: #24292e;
+}
+
+.menu-space:hover{
+    border-bottom: 2px solid #d1d5da;
+}
+
+.menu-space svg{
+    opacity: 0.4;
+}
+
+.svg-push{
+    margin-right: 7px;
+    position: relative;
+    top: 4px;
+}
+.shrink{
+    min-width:320px;
+    width: 100% !important;
+    padding: 0px 16px;
+    flex: 0 1 320px;
+}
+
+.shrink h1{
+    margin: 0px;
+    color: transparent;
+}
+
+.menu-container{
+    display: flex;
+    max-width: 1024px;
+    width: 100% !important;
+    margin:0px;
+    padding-right: 0px!important;
+    padding-right: 16px!important;
+    padding-left: 20px!important;
+    overflow-x: auto;
+    background: white;
+}
+
+.ire-o{
+    margin-top: 24px;
+    border-bottom: 1px solid #eaecef;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.figure{
+    padding: 0px 6px;
+    margin-left:7px;
+    border-radius: 50% !important;
+    background-color: #e8eaec;
+    font-size: 14px;
+}
+
+.orange-border{
+    border-bottom: 2px solid #f9826c;
+}
+.orange-border:hover{
+    border-bottom: 2px solid #f9826c;
+}
+
+.orange-border svg{
+    opacity: 1;
+    margin-right: 7px;
+    position: relative;
+    top: 4px;
+}
+
+
+/* ***********************grid layout************************ */
+
+.grid-layout{
+    padding: 0 16px!important;
+    margin: 0 32px!important;
+    max-width: 1280px;
+    color: #ffffff;
+    display: flex;
+    flex-shrink: 0!important;
+    white-space: nowrap;
+    grid-template-columns: .1fr 1fr;
+    flex-wrap: wrap;
+}
+
+.profile-flex{
+    display: flex;
+    flex-direction: column;
+    padding: 0 16px!important; 
+    position: relative;
+    top: -35px;
+    line-height: 1.7;
+    box-sizing: border-box;
+    flex-shrink: 0!important;
+    width: 25%;
+    flex-wrap: wrap;
+    word-wrap: inherit;
+}
+
+.my-avatar{
+    width: 100%; 
+    height:auto;
+    box-sizing: border-box;
+}
+
+.fallback-avatar{
+    margin: 0 4%;
+}
+
+.fa-smile{
+    position: relative;
+    top: -2.2em;
+    right: 3em; 
+    padding: 10.5px;
+    color:#586069; 
+    border: 1px #e1e4e8 solid; 
+    border-radius: 50%; 
+    background: #ffffff;
+}
+
+
+.picture{
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+}
+
+.picture :hover{
+    cursor: pointer;
+}
+
+.foam{
+    padding: 12px 0px;
+    line-height: 1.2;
+    
+}
+.name{
+    margin: 0;
+    font-size: 26px;
+    color: #24292e;
+    width: 100%;
+    line-height: 1.25;
+    font-weight: 600;
+}
+.username{
+    margin: 0px;
+    /* position: relative;
+    bottom: 3px; */
+    color: #586069;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.my-word{
+    color: #24292e;
+    padding-bottom: 16px;
+}
+
+.profile-button{
+    color:  #24292e;
+    background: #fafbfc;
+    padding: 5px 16px;
+    outline-style: none;
+    display: block;
+    font-weight: 600;
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid #d9dbdb;
+    border-radius: 6px;
+    width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+.fallback-margin{
+    margin-bottom: 16px;
+}
+.repos{
+    padding: 0 18px;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.input-area{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0;
+    box-shadow: #eaecef 0px 1px 0px 0px;
+}
+
+
+
+.repos-input{
+    max-width: 542px;
+    height: 32px;
+    width: 100% !important;
+    padding: 5px 12px;
+    border-radius: 5px;
+    border: 1px solid #eaecef;
+}
+
+.repos-input::placeholder{
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+.repos-input-fallback{
+    max-width: 100%;
+    height: 32px;
+    width: 100% !important;
+    padding: 5px 12px;
+    border-radius: 5px;
+    border: 1px solid #eaecef;
+}
+.avatar-status-fallback{
+    max-width: 100%;
+    height: 32px;
+    width: 100% !important;
+    padding: 5px 12px;
+    border-radius: 5px;
+    border: 1px solid #eaecef;
+    font-size: 14px;
+    opacity: .6;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.avatar-status-fallback:hover{
+    fill: currentColor;
+    color: blue;
+}
+
+
+.clickable-smiley svg:hover{
+    fill: currentColor;
+    color: blue;
+}
+.avatar-input-fallback::placeholder{
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+.repos-input:focus{
+    border-radius: 5px;
+    outline: 10px #b3d1f3;
+    border: 1px solid blue;
+    /* outline: 2px solid blue; */
+}
+
+.repos input::placeholder{
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+.btn{
+    color: black;
+    display: flex;
+}
+
+.btn-container a{
+    text-decoration: none;
+}
+
+.lay{
+    display: flex;
+    padding: 5px 16px;
+    justify-content: space-between;
+    min-width: 104px;
+    height: 32px;
+    border-radius: 6px;
+    border:1px solid  #eaecef;
+    background: #fafbfc;
+    font-size: 14px;
+    margin-left: 16px;
+}
+
+.alte{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 16px;
+    width: 100%;
+    height: 32px;
+    border-radius: 6px;
+    border:1px solid  #eaecef;
+    background: #fafbfc;
+    font-size: 14px;
+}
+
+.alte:hover{
+    background-color: #f3f4f6;
+}
+
+.new-flex{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #eaecef;
+    padding-bottom: 16px;
+}
+
+.repos-input-margin{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.new-margin{
+    margin: 0 4%;
+}
+
+.increase{
+    max-width: 8em;
+}
+
+.alte-margin{
+    margin-left: 8px;
+}
+
+.two{
+    width: 136px;
+    margin-left: 9px;
+}
+
+.pill{
+    padding: 5px 16px;
+    height: 32px;
+    border-radius: 6px;
+    border:1px solid none ;
+    background: #2ea44f;
+    font-size: 14px;
+    max-width: 83px;
+    width: 100%!important;
+    text-decoration: none;
+    color: white;
+    margin-left: 16px;
+    margin-right: 3px;
+}
+
+.pill-fallback{
+    padding: 5px 16px;
+    height: 32px;
+    border-radius: 6px;
+    border:1px solid none ;
+    background: #2ea44f;
+    font-size: 14px;
+    max-width: 83px;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+}
+
+.pill-fallback:hover{
+    background-color: #2c974b;
+}
+
+.pill-push{
+    fill: currentColor;
+    position: relative;
+    top: 4px;
+}
+
+
+.btn p{
+    padding: 0;
+    margin: 0;
+}
+
+repos p{
+    font-style: normal;
+    font-weight: 500;
+    opacity: .75;
+}
+
+
+/* ***************************Smaller viewports************************************* */
+
+.fallback-identity-flex{
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.fallback-identity-flex img{
+    border-radius: 50%;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.fallback-identity-flex a{ 
+    cursor: pointer;
+    max-width: 18%;
+}
+
+.fallback-foam{
+    padding-left: 5%;
+}
+
+/* ***************************grid-template****************************** */
+
+.half{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+    flex-direction: row;
+    border-bottom:1px solid  #eaecef;
+}
+
+.template-row-margin{
+    margin: 0 5%;
+}
+
+.grid-left{
+    color: #586069;
+    /* width: 75%; */
+}
+
+.grid-right{
+    font-size: 12px; 
+}
+
+.repo-header{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 16px;
+    color: #0366d6;
+}
+
+.repo-header:hover{
+    text-decoration: underline;
+}
+
+.grid-right button{
+    border:1px solid  #eaecef;
+    padding: 3px 12px;
+    border-radius: 6px;
+    font-weight: 500;
+    background: #fafbfc;
+    color: #24292e;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    cursor: pointer;
+}
+
+/* .shade svg{
+    color: #24292e;
+    fill: currentColor;
+    background: #fafbfc;
+} */
+
+.grid-right button:focus{
+    outline: none;
+}
+.grid-right button:hover{
+    outline: none;
+    background: #f3f4f6;
+}
+.grid-right svg{
+    opacity: .4;
+    position: relative;
+    top: 2px;
+}
+
+
+.yellow-dot{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border: 1px solid none;
+    border-radius: 50%;
+    background: #f1e05a;
+}
+.purple-dot{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border: 1px solid none;
+    border-radius: 50%;
+    background: #563d7c;
+}
+.orange-dot{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border: 1px solid none;
+    border-radius: 50%;
+    background: #e34c26;
+}
+
+.inner-flex{
+    display: flex;
+    font-size: 12px;
+}
+
+
+/* *************************Footer area**************************** */
+
+.footer-flex{
+    display: flex;
+    padding: 0 0px;
+    margin: 0 4%;
+    font-size: 12px;
+    color:white;
+    box-sizing: border-box;
+    border-top:1px solid  #eaecef;
+
+    margin-top: 40px;
+}
+
+.footer-flex-fallback{
+    display: flex;
+    padding: 8;
+    margin: 60px 4% 0;
+    font-size: 12px;
+    color:white;
+}
+
+.list-flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    list-style-type: none;
+    padding: 10px 0px 40px;
+    width: 100%;
+    margin-top: 40px;
+    line-height: 2;
+    /* border-top:1px solid  #eaecef; */
+    color: #0366d6;
+}
+
+
+.footer-fallback-list-flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: initial;
+    flex-shrink: 1;
+    list-style-type: none;
+    padding: 40px 0px 60px;
+    width: 100%;
+    margin-top: 40px;
+    line-height: 2;
+    /* border-top:1px solid  #eaecef; */
+    color: #0366d6;
+    padding: 0 16px;
+}
+
+.footer-fallback-list-flex a{
+    color: #0366d6;
+    font-size: 12px;
+}
+
+.list-flex a{
+    color: #0366d6;
+}
+
+.list-flex-fallback{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    list-style-type: none;
+    padding: 0px 0px 60px;
+    width: 100%;
+    margin: 40px 8% 0;
+    line-height: 1.7;
+    color: #0366d6;
+    /* border-top:1px solid  #eaecef; */
+
+}
+
+.list-flex-fallback a{
+    color: #0366d6;
+}
+
+.list-flex-fallback a:hover{
+    text-decoration: underline;
+}
+
+
+.list-flex a:hover{
+    text-decoration: underline;
+}
+.footer-icon{
+    height: 25px;
+    position: relative;
+    bottom: -80px;
+    opacity: .2;
+    bottom: -50px;
+}
+
+.copyright{
+    margin-left: 25px;
+    color: #586069;
+}
+
+.copyright-fallback{
+    color: #586069;
+    font-size: 12px;
+}
+
+.margin-left{
+    margin-left: 4%;
+}
+
+
+
+
+/* *********************responsive styles for nav less than 920px************************* */
+
+@media screen and (max-width:930px){
+
+    .hide{
+        height: 0;
+        width: 0;
+        overflow: hidden;
+        color: transparent;
+        padding: 0;
+        margin: 0;
+        border: 0;
+        display: none;
+    }
+}
+
+@media screen and (min-width:931px){
+    .conceal{
+        height: 0;
+        overflow: hidden;
+        color: transparent;
+        padding: 0px;
+        margin: 0;
+        border: 0;
+        display: none;
+    }
+}
+
+@media screen and (max-width:550px){
+    .fold{
+        height: 0;
+        overflow: hidden;
+        color: transparent;
+        padding: 0px;
+        margin: 0;
+        border: 0;
+    }
+}
+
+@media screen and (min-width:551px){
+    .squeeze{
+        height: 0;
+        overflow: hidden;
+        color: transparent;
+        padding: 0px;
+        margin: 0;
+        border: 0;
+    }
+}
+
+@media screen and (max-width:810px){
+    .crush{
+        height: 0;
+        overflow: hidden;
+        color: transparent;
+        padding: 0px;
+        margin: 0;
+        border: 0;
+    }
+}
+
+@media screen and (min-width:811px){
+    .collapse{
+        height: 0;
+        width: 0;
+        overflow: hidden;
+        color: transparent;
+        padding: 0;
+        margin: 0;
+        border: 0;
+        display: none;
+    }
+}

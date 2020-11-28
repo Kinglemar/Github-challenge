@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Repositories</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="dns-prefetch" href="https://github.githubassets.com">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <script src="https://use.fontawesome.com/73b65fc62b.js"></script>
+    <script src="https://kit.fontawesome.com/68b4785ce4.js" crossorigin="anonymous"></script>
+    <script src="./script.js" async></script>
+    
+</head>
+<body>
+            <nav class="top-menu hide">
+                <a class="github-logo" href="https://github.com/"><img src="./img/GitHub-Mark-Light-32px.png" alt=""></a>
+
+
+                <div class="left">
+
+                        <div class="input-space">
+                            <input class="none" placeholder="Search or jump to..." type="search" name="" id="">
+                            <button class="button"><img src="https://github.githubassets.com/images/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash"></button>
+                        </div>
+
+                        <div class="push">
+                            <a href="#">Pull requests</a>
+                            <a href="#">Issues</a>
+                            <a href="#">Codespaces</a>
+                            <a href="#">Marketplace</a>
+                            <a href="#">Explore</a>
+                            <!-- <i class="fa fa-car"></i> -->
+                        </div>
+
+                </div>
+
+                <div class="icon-flex">
+                    <div>
+                        <svg class="bella" style="margin-right: 16px;" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M8 16a2 2 0 001.985-1.75c.017-.137-.097-.25-.235-.25h-3.5c-.138 0-.252.113-.235.25A2 2 0 008 16z"></path><path fill-rule="evenodd" d="M8 1.5A3.5 3.5 0 004.5 5v2.947c0 .346-.102.683-.294.97l-1.703 2.556a.018.018 0 00-.003.01l.001.006c0 .002.002.004.004.006a.017.017 0 00.006.004l.007.001h10.964l.007-.001a.016.016 0 00.006-.004.016.016 0 00.004-.006l.001-.007a.017.017 0 00-.003-.01l-1.703-2.554a1.75 1.75 0 01-.294-.97V5A3.5 3.5 0 008 1.5zM3 5a5 5 0 0110 0v2.947c0 .05.015.098.042.139l1.703 2.555A1.518 1.518 0 0113.482 13H2.518a1.518 1.518 0 01-1.263-2.36l1.703-2.554A.25.25 0 003 7.947V5z"></path></svg>
+                    </div>
+                    <span class="hop-init">
+                        <svg viewBox="0 0 16 16" class="cross" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 2a.75.75 0 01.75.75v4.5h4.5a.75.75 0 010 1.5h-4.5v4.5a.75.75 0 01-1.5 0v-4.5h-4.5a.75.75 0 010-1.5h4.5v-4.5A.75.75 0 018 2z"></path></svg>
+                        <i class="fa fa-caret-down" style="font-size: 12px; margin-top: 2px; margin-left: 3px;"></i>
+                    </span>
+
+                    <span class="hop">
+                    <img class="avatar" src="https://avatars1.githubusercontent.com/u/72980517?s=40&amp;v=4" width="20" height="20" alt=""/>
+
+                    <i class="fa fa-caret-down" style="font-size: 12px; margin-top: .5px;"></i>
+                    </span>
+                </div>
+            </nav>
+
+<!-- ********************Navigation bar for viewports less than 920px************************ -->
+
+<nav class="fallback-nav conceal">   
+    <a type="button">
+        <svg height="24" class="three-bars" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z"></path></svg>
+    </a>
+
+      <a class="github-logo" href="https://github.com/"><img src="./img/GitHub-Mark-Light-32px.png" alt=""></a>
+
+      <svg class="bella" style="margin-right: 16px;" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M8 16a2 2 0 001.985-1.75c.017-.137-.097-.25-.235-.25h-3.5c-.138 0-.252.113-.235.25A2 2 0 008 16z"></path><path fill-rule="evenodd" d="M8 1.5A3.5 3.5 0 004.5 5v2.947c0 .346-.102.683-.294.97l-1.703 2.556a.018.018 0 00-.003.01l.001.006c0 .002.002.004.004.006a.017.017 0 00.006.004l.007.001h10.964l.007-.001a.016.016 0 00.006-.004.016.016 0 00.004-.006l.001-.007a.017.017 0 00-.003-.01l-1.703-2.554a1.75 1.75 0 01-.294-.97V5A3.5 3.5 0 008 1.5zM3 5a5 5 0 0110 0v2.947c0 .05.015.098.042.139l1.703 2.555A1.518 1.518 0 0113.482 13H2.518a1.518 1.518 0 01-1.263-2.36l1.703-2.554A.25.25 0 003 7.947V5z"></path></svg>
+</nav>
+
+
+
+<!-- **************************************************************************************************** -->
+
+
+
+
+    <section class="switch-menu hide">
+        <div class="shrink hide"><h1>transparent</h1></div>
+        <div class="menu-container">
+
+        <a href="#" class="menu-space"><div><svg class="svg-push" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 1.75A.75.75 0 01.75 1h4.253c1.227 0 2.317.59 3 1.501A3.744 3.744 0 0111.006 1h4.245a.75.75 0 01.75.75v10.5a.75.75 0 01-.75.75h-4.507a2.25 2.25 0 00-1.591.659l-.622.621a.75.75 0 01-1.06 0l-.622-.621A2.25 2.25 0 005.258 13H.75a.75.75 0 01-.75-.75V1.75zm8.755 3a2.25 2.25 0 012.25-2.25H14.5v9h-3.757c-.71 0-1.4.201-1.992.572l.004-7.322zm-1.504 7.324l.004-5.073-.002-2.253A2.25 2.25 0 005.003 2.5H1.5v9h3.757a3.75 3.75 0 011.994.574z"></path></svg><span>Overview</span></div></a>
+
+        <a href="#" class="menu-space orange-border"><div><svg class="svg-push" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path></svg><span style="font-weight: 600;">Repositories</span><span class="figure">5</span></div></a>
+
+        <a href="#" class="menu-space"><div><svg class="svg-push"  height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.75 0A1.75 1.75 0 000 1.75v12.5C0 15.216.784 16 1.75 16h12.5A1.75 1.75 0 0016 14.25V1.75A1.75 1.75 0 0014.25 0H1.75zM1.5 1.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v12.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25V1.75zM11.75 3a.75.75 0 00-.75.75v7.5a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75zm-8.25.75a.75.75 0 011.5 0v5.5a.75.75 0 01-1.5 0v-5.5zM8 3a.75.75 0 00-.75.75v3.5a.75.75 0 001.5 0v-3.5A.75.75 0 008 3z"></path></svg><span>Projects</span></div></a>
+
+        <a href="#" class="menu-space"><div><svg class="svg-push" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.878.392a1.75 1.75 0 00-1.756 0l-5.25 3.045A1.75 1.75 0 001 4.951v6.098c0 .624.332 1.2.872 1.514l5.25 3.045a1.75 1.75 0 001.756 0l5.25-3.045c.54-.313.872-.89.872-1.514V4.951c0-.624-.332-1.2-.872-1.514L8.878.392zM7.875 1.69a.25.25 0 01.25 0l4.63 2.685L8 7.133 3.245 4.375l4.63-2.685zM2.5 5.677v5.372c0 .09.047.171.125.216l4.625 2.683V8.432L2.5 5.677zm6.25 8.271l4.625-2.683a.25.25 0 00.125-.216V5.677L8.75 8.432v5.516z"></path></svg><span>Packages</span></div></a>
+    </div>
+    </section>
+
+   
+<!-- ********************************************************************************************************************* -->
+    
+
+
+     <!-- **************************fallback for avatar and name************************************** -->
+
+     <div class="fallback-avatar conceal">
+        <div class="fallback-identity-flex">
+        <a href=""><img class="" alt="" src="https://avatars2.githubusercontent.com/u/72980517?s=460&amp;u=0d0bca32077e89d51eb4165f1f190f105130398d&amp;v=4" /></a>
+        <div class="foam fallback-foam">
+            <h1 class="name">Dimeji Ogunleye</h1>
+            <h2 class="username">Kinglemar</h2>
+            </div>
+         </div>
+            <div class="avatar-status-fallback">
+                <span class="clickable-smiley"><svg class="" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zM5 8a1 1 0 100-2 1 1 0 000 2zm7-1a1 1 0 11-2 0 1 1 0 012 0zM5.32 9.636a.75.75 0 011.038.175l.007.009c.103.118.22.222.35.31.264.178.683.37 1.285.37.602 0 1.02-.192 1.285-.371.13-.088.247-.192.35-.31l.007-.008a.75.75 0 111.222.87l-.614-.431c.614.43.614.431.613.431v.001l-.001.002-.002.003-.005.007-.014.019a1.984 1.984 0 01-.184.213c-.16.166-.338.316-.53.445-.63.418-1.37.638-2.127.629-.946 0-1.652-.308-2.126-.63a3.32 3.32 0 01-.715-.657l-.014-.02-.005-.006-.002-.003v-.002h-.001l.613-.432-.614.43a.75.75 0 01.183-1.044h.001z"></path></svg><span  style="font-size: 12px; margin-left: 7px; position: relative; bottom: 3px;">Set status</span></span>
+            </div>
+
+            <div class="my-word">
+                I'm an enthusisatic learner......
+            </div>
+            <a href="" class="profile-button fallback-margin">Edit profile</a>
+    </div>
+
+    <!-- *******************************fallback for switch-menu************************************** -->
+    <div class="menu-container conceal fold">
+
+        <a href="#" class="menu-space"><div><svg class="svg-push" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 1.75A.75.75 0 01.75 1h4.253c1.227 0 2.317.59 3 1.501A3.744 3.744 0 0111.006 1h4.245a.75.75 0 01.75.75v10.5a.75.75 0 01-.75.75h-4.507a2.25 2.25 0 00-1.591.659l-.622.621a.75.75 0 01-1.06 0l-.622-.621A2.25 2.25 0 005.258 13H.75a.75.75 0 01-.75-.75V1.75zm8.755 3a2.25 2.25 0 012.25-2.25H14.5v9h-3.757c-.71 0-1.4.201-1.992.572l.004-7.322zm-1.504 7.324l.004-5.073-.002-2.253A2.25 2.25 0 005.003 2.5H1.5v9h3.757a3.75 3.75 0 011.994.574z"></path></svg><span>Overview</span></div></a>
+
+        <a href="#" class="menu-space orange-border"><div><svg class="svg-push" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path></svg><span style="font-weight: 600;">Repositories</span><span class="figure">4</span></div></a>
+
+        <a href="#" class="menu-space"><div><svg class="svg-push"  height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.75 0A1.75 1.75 0 000 1.75v12.5C0 15.216.784 16 1.75 16h12.5A1.75 1.75 0 0016 14.25V1.75A1.75 1.75 0 0014.25 0H1.75zM1.5 1.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v12.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25V1.75zM11.75 3a.75.75 0 00-.75.75v7.5a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75zm-8.25.75a.75.75 0 011.5 0v5.5a.75.75 0 01-1.5 0v-5.5zM8 3a.75.75 0 00-.75.75v3.5a.75.75 0 001.5 0v-3.5A.75.75 0 008 3z"></path></svg><span>Projects</span></div></a>
+
+        <a href="#" class="menu-space"><div><svg class="svg-push" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.878.392a1.75 1.75 0 00-1.756 0l-5.25 3.045A1.75 1.75 0 001 4.951v6.098c0 .624.332 1.2.872 1.514l5.25 3.045a1.75 1.75 0 001.756 0l5.25-3.045c.54-.313.872-.89.872-1.514V4.951c0-.624-.332-1.2-.872-1.514L8.878.392zM7.875 1.69a.25.25 0 01.25 0l4.63 2.685L8 7.133 3.245 4.375l4.63-2.685zM2.5 5.677v5.372c0 .09.047.171.125.216l4.625 2.683V8.432L2.5 5.677zm6.25 8.271l4.625-2.683a.25.25 0 00.125-.216V5.677L8.75 8.432v5.516z"></path></svg><span>Packages</span></div></a>
+    </div>
+
+<!-- ************************Switch menu for smaller view-port**************************** -->
+
+    <div class="menu-container ire-o conceal squeeze">
+
+        <a href="#" class="menu-space"><div><span>Overview</span></div></a>
+
+        <a href="#" class="menu-space orange-border"><div><span style="font-weight: 600;">Repositories</span><span class="figure">4</span></div></a>
+
+        <a href="#" class="menu-space"><div><span>Projects</span></div></a>
+
+        <a href="#" class="menu-space"><div><span>Packages</span></div></a>
+    </div>
+
+
+
+<!-- *******************Grid-layout****************** -->
+
+<section class="grid-layout">
+    <section class="profile-flex hide">
+            <div class="my-avatar">
+             <a href=""><img class="picture" style="height: 280; width: 280;" alt="" src="https://avatars2.githubusercontent.com/u/72980517?s=460&amp;u=0d0bca32077e89d51eb4165f1f190f105130398d&amp;v=4" /> <i class="far fa-smile"></i></a>
+
+            </div>
+            
+            <div class="foam">
+            <h1 class="name">Dimeji Ogunleye</h1>
+            <h2 class="username">Kinglemar</h2>
+            </div>
+
+            <div class="my-word">
+                I'm an enthusisatic learner......
+            </div>
+
+            <a href="" class="profile-button">Edit profile</a>
+
+    </section>
+
+    <section class="repos hide">
+        <div class="input-area">
+            <input class="repos-input" type="search" name="Search" placeholder="Find a repository..." id="">
+            <div class="btn-container">
+                <div class="btn">
+                    <a href=""><div class="lay"><p style="color: #24292e; opacity: .6; font-weight: 600;">Type:</p><div style="font-weight: 600; color: #24292e"> All</div><i class="fa fa-caret-down" style="font-size: 12px; margin-top: 6px; color: #24292e""></i></div></a>
+
+                    <a href=""><div class="lay two"><p style="color: #24292e; opacity: .6; font-weight: 600;">Language:</p><div style="font-weight: 600; color: #24292e;"> All</div><i class="fa fa-caret-down" style="font-size: 12px; margin-top: 6px;color: #24292e""></i></div></a>
+                </div>
+            </div>
+                <a href=""><div class="pill">
+                    <svg class="pill-push" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path></svg>
+                   <span style="margin-bottom: 8px;">New</span>
+                </div></a>
+            </div>
+        </div>
+
+        <ul class="template-rows">
+
+
+            <li class="half">
+                <div class="grid-left">
+                    <a href=""><h3 class="repo-header">Github-challenge</h3></a>
+
+                    <div class="inner-flex">
+                        <span style="margin-right: 16px;">
+                            <span class="yellow-dot"></span>
+                            <span>Javascript</span>
+                        </span>
+                        <span>Updated 3 days ago</span>
+                    </div>
+                </div>
+                        
+                    <div class="grid-right">
+                        <button class="update">
+                            <svg viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path></svg>
+                            <span style="position: relative; bottom: 2px;">Star</span>
+                        </button>
+                        <button  class="updated conceal">
+                            <svg class="" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"></path></svg>
+                            <span style="position: relative; bottom: 2px;">Unstar</span>
+                        </button>
+                    </div>
+            </li>
+
+
+
+            <li class="half">
+                <div class="grid-left">
+                    <a href=""><h3 class="repo-header">Typing-speed-test</h3></a>
+
+                    <div class="inner-flex">
+                        <span style="margin-right: 16px;">
+                            <span class="yellow-dot"></span>
+                            <span>Javascript</span>
+                        </span>
+                        <span>Updated 3 days ago</span>
+                    </div>
+                </div>
+                        
+                    <div class="grid-right">
+                        <button class="click shade">
+                            <svg viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path></svg>
+                            <span style="position: relative; bottom: 2px;">Star</span>
+                        </button>
+                        <button  class="clicked conceal shade">
+                            <svg class="" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"></path></svg>
+                            <span style="position: relative; bottom: 2px;">Unstar</span>
+                        </button>
+                    </div>
+            </li>
+
+            <li class="half">
+                <div class="grid-left">
+                    <a href=""><h3 class="repo-header">Dimeji-ogunleye-task-2</h3></a>
+                    <div class="inner-flex">
+                        <span style="margin-right: 16px;">
+                            <span class="purple-dot"></span>
+                            <span>CSS</span>
+                        </span>
+                        <span>Updated 5 days ago</span>
+                    </div>
+                    </div>
+                        
+                    <div class="grid-right">
+                        <button class="click1">
+                            <svg viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path></svg>
+                            <span style="position: relative; bottom: 2px;">Star</span>
+                        </button>
+                        <button  class="clicked1 conceal shade">
+                            <svg class="" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"></path></svg>
+                            <span style="position: relative; bottom: 2px;">Unstar</span>
+                        </button>
+                    </div>
+            </li>
+        
+            <li class="half">
+                <div class="grid-left">
+                    <a href=""><h3 class="repo-header">Dimeji-ogunleye-task-1</h3></a>
+                    <div class="inner-flex">
+                        <span style="margin-right: 16px;">
+                            <span class="orange-dot"></span>
+                            <span>HTML</span>
+                        </span>
+                        <span>Updated on Oct 26th</span>
+                    </div>
+                    </div>
+                        
+                    <div class="grid-right">
+                        <button class="click2">
+                            <svg viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path></svg>
+                            <span style="position: relative; bottom: 2px;">Star</span>
+                        </button>
+                        <button  class="clicked2 conceal shade">
+                            <svg class="" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"></path></svg>
+                            <span style="position: relative; bottom: 2px;">Unstar</span>
+                        </button>
+                    </div>
+            </li>
+
+            <li class="half">
+                <div class="grid-left">
+                    <a href=""><h3 class="repo-header">Analogue-Clock</h3></a>
+                    <div class="inner-flex">
+                        <span style="margin-right: 16px;">
+                            <span class="yellow-dot"></span>
+                            <span>Javascript</span>
+                        </span>
+                        <span>Updated on Oct 16</span>
+                    </div>
+                    </div>
+                        
+                    <div class="grid-right">
+                        <button class="click3">
+                            <svg viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path></svg>
+                            <span style="position: relative; bottom: 2px;">Star</span>
+                        </button>
+                        <button  class="clicked3 conceal shade">
+                            <svg class="" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"></path></svg>
+                            <span style="position: relative; bottom: 2px;">Unstar</span>
+                        </button>
+                    </div>
+            </li>
+        
+        </ul>
+    </section>
+</section>
+
+<div>
+<div class="conceal new-margin">
+    <input class="repos-input repos-input-margin" type="search" name="Search" placeholder="Find a repository..." id="">
+    
+    <div class="new-flex">
+
+    <div class="btn-container">
+        <div class="btn">
+            <a href=""><div class="alte increase"><p style="color: #24292e; opacity: .6; font-weight: 600;">Type: </p><div style="font-weight: 600; color: #24292e"> All</div><i class="fa fa-caret-down" style="font-size: 12px; margin-top: 6px; color: #24292e""></i></div></a>
+
+            <a href=""><div class="alte alte-margin"><p style="color: #24292e; opacity: .6; font-weight: 600;">Language:</p><div style="font-weight: 600; color: #24292e;"> All</div><i class="fa fa-caret-down" style="font-size: 12px; margin-top: 6px;color: #24292e""></i></div></a>
+        </div>
+    </div>
+
+
+        <a href=""><div class="pill-fallback">
+            <svg class="pill-push" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path></svg><span style="margin-bottom: 8px;">New</span></div></a>
+        </div>
+    </div>
+</div>
+
+<ul class="template-rows conceal new-margin">
+
+
+    <li class="half">
+        <div class="grid-left">
+            <a href=""><h3 class="repo-header">Github-challenge</h3></a>
+
+            <div class="inner-flex">
+                <span style="margin-right: 16px;">
+                    <span class="yellow-dot"></span>
+                    <span>Javascript</span>
+                </span>
+                <span>Updated 3 days ago</span>
+            </div>
+        </div>
+                
+            <div class="grid-right">
+                <button class="update-fallback">
+                    <svg viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path></svg>
+                    <span style="position: relative; bottom: 2px;">Star</span>
+                </button>
+                <button  class="updated-fallback hide">
+                    <svg class="" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"></path></svg>
+                    <span style="position: relative; bottom: 2px;">Unstar</span>
+                </button>
+            </div>
+    </li>
+
+
+    <li class="half template-rows-margin">
+        <div class="grid-left">
+            <a href=""><h3 class="repo-header">Typing-speed-test</h3></a>
+
+            <div class="inner-flex">
+                <span style="margin-right: 16px;">
+                    <span class="yellow-dot"></span>
+                    <span>Javascript</span>
+                </span>
+                <span>Updated 3 days ago</span>
+            </div>
+        </div>
+                
+            <div class="grid-right">
+                    <button class="touch">
+                        <svg viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path></svg>
+                        <span style="position: relative; bottom: 2px;">Star</span>
+                    </button>
+                    <button  class="touched hide">
+                        <svg class="" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"></path></svg>
+                        <span style="position: relative; bottom: 2px;">Unstar</span>
+                    </button>
+            </div>
+    </li>
+
+    <li class="half">
+        <div class="grid-left">
+            <a href=""><h3 class="repo-header">Dimeji-ogunleye-task-2</h3></a>
+            <div class="inner-flex">
+                <span style="margin-right: 16px;">
+                    <span class="purple-dot"></span>
+                    <span>CSS</span>
+                </span>
+                <span>Updated 5 days ago</span>
+            </div>
+            </div>
+                
+            <div class="grid-right">
+                    <button class="touch1">
+                        <svg viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path></svg>
+                        <span style="position: relative; bottom: 2px;">Star</span>
+                    </button>
+
+                    <button class="touched1 hide">
+                        <svg class="" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"></path></svg>
+                        <span style="position: relative; bottom: 2px;">Unstar</span>
+                    </button>
+            </div>
+    </li>
+
+    <li class="half">
+        <div class="grid-left">
+            <a href=""><h3 class="repo-header">Dimeji-ogunleye-task-1</h3></a>
+            <div class="inner-flex">
+                <span style="margin-right: 16px;">
+                    <span class="orange-dot"></span>
+                    <span>HTML</span>
+                </span>
+                <span>Updated on Oct 26th</span>
+            </div>
+            </div>
+                
+            <div class="grid-right">
+                    <button class="touch2">
+                        <svg viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path></svg>
+                        <span style="position: relative; bottom: 2px;">Star</span>
+                    </button>
+
+                    <button class="hide touched2">
+                        <svg class="" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"></path></svg>
+                        <span style="position: relative; bottom: 2px;">Unstar</span>
+                    </button>
+            </div>
+    </li>
+
+    <li class="half">
+        <div class="grid-left">
+            <a href=""><h3 class="repo-header">Analogue-Clock</h3></a>
+            <div class="inner-flex">
+                <span style="margin-right: 16px;">
+                    <span class="yellow-dot"></span>
+                    <span>Javascript</span>
+                </span>
+                <span>Updated on Oct 16</span>
+            </div>
+            </div>
+                
+            <div class="grid-right">
+                    <button class="touch3">
+                        <svg  viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path></svg>
+                        <span style="position: relative; bottom: 2px;">Star</span>
+                    </button>
+
+                    <button class="touched3 hide">
+                        <svg class="" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"></path></svg>
+                        <span style="position: relative; bottom: 2px;">Unstar</span>
+                    </button>
+            </div>
+    </li>
+
+</ul>
+</div>
+
+
+<footer>  
+    <div class="footer-flex crush">   
+
+        <a aria-label="Homepage" title="GitHub" class="footer-icon" style="fill: currentColor;" href="https://github.com"><svg height="24" class="" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg></a>
+
+    <ul class="list-flex">  
+        
+        <li><span class="copyright"">&copy; 2020 Github, inc.</span></li>
+        <li><a href="">Terms</a></li>
+        <li><a href="">Privacy</a></li>
+        <li><a href="">Security</a></li>
+        <li><a href="">Status</a></li>
+        <li><a href="">Help</a></li>
+        <li><a href="">Contact Github</a></li>
+        <li><a href="">Pricing</a></li>
+        <li><a href="">API</a></li>
+        <li><a href="">Training</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">About</a></li>
+
+    </ul>
+</div>
+
+</footer>
+
+<footer class="collapse">  
+    <div class="footer-flex footer-flex-fallback">   
+
+    <ul class="list-flex-fallback">  
+
+        <li><span class="copyright-fallback">&copy; 2020 Github, inc.</span></li>
+        <li class="margin-left"><a href="">Terms</a></li>
+        <li class="margin-left"><a href="">Privacy</a></li>
+        <li class="margin-left"><a href="">Security</a></li>
+        <li class="margin-left"><a href="">Status</a></li>
+        <li class="margin-left"><a href="">Help</a></li>
+        <li class="margin-left"><a href="">Contact Github</a></li>
+        <li class="margin-left"><a href="">Pricing</a></li>
+        <li class="margin-left"><a href="">API</a></li>
+        <li class="margin-left"><a href="">Training</a></li>
+        <li class="margin-left"><a href="">Blog</a></li>
+        <li class="margin-left"><a href="">About</a></li>
+
+    </ul>
+</div>
+
+</footer>
+
+
+<!-- <div class="footer-fallback collapse">
+<ul class="footer-fallback-list-flex">  
+
+    <li><span class="copyright-fallback">&copy; 2020 Github, inc.</span></li>
+    <li><a href="">Terms</a></li>
+    <li><a href="">Privacy</a></li>
+    <li><a href="">Security</a></li>
+    <li><a href="">Status</a></li>
+    <li><a href="">Help</a></li>
+    <li><a href="">Contact Github</a></li>
+    <li><a href="">Pricing</a></li>
+    <li><a href="">API</a></li>
+    <li><a href="">Training</a></li>
+    <li><a href="">Blog</a></li>
+    <li><a href="">About</a></li>
+
+
+
+</ul>
+</div> -->
+
+</body>
+</html>
