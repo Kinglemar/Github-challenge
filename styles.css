@@ -609,6 +609,10 @@ a{
     margin-right: 3px;
 }
 
+.pill:hover{
+   background: #2c974b;
+}
+
 .pill-fallback{
     padding: 5px 16px;
     height: 32px;
