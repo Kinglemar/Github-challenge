@@ -409,7 +409,7 @@ a{
 
 .my-word{
     color: #24292e;
-    padding-bottom: 16px;
+    padding: 16px 0 16px;
 }
 
 .profile-button{
@@ -464,8 +464,8 @@ a{
 
 .repos-input-fallback{
     max-width: 100%;
-    height: 32px;
-    width: 100% !important;
+    line-height: 20px;
+    outline: none;
     padding: 5px 12px;
     border-radius: 5px;
     border: 1px solid #eaecef;
@@ -731,7 +731,7 @@ repos p{
 
 .prevent{
     position: relative;
-    top: 3px;
+    top: 1px;
 }
 .purple-dot{
     display: inline-block;
