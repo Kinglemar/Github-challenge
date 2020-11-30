@@ -464,6 +464,7 @@ a{
 
 .repos-input-fallback{
     width: 100%;
+    display: block;
     line-height: 20px;
     padding: 5px 12px;
     border-radius: 6px;
@@ -508,15 +509,12 @@ a{
 .repos-input:focus{
     border-radius: 5px;
     outline: 10px #b3d1f3;
-    border: 1px solid blue;
+    border: 1px ridge blue;
 }
 
 .repos-input-fallback::focus{
     border-radius: 6px;
-    outline: 10px #b3d1f3;
-    /* border: 1px solid blue; */
-    border-color: blue;
-    outline-color: blue;
+    border: 1px ridge blue;
 }
 
 .repos input::placeholder{
